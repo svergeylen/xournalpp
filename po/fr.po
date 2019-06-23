@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xournalpp 1.0.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-12 10:44+0200\n"
-"PO-Revision-Date: 2019-06-19 16:44+0200\n"
+"PO-Revision-Date: 2019-06-23 21:44+0200\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,15 +255,19 @@ msgstr "Impossible de charger le fichier LaTeX : {1}"
 
 #: ../src/control/pagetype/PageTypeHandler.cpp:18
 msgid "Could not load pagetemplates.ini file"
-msgstr ""
+msgstr "Impossible de charger le fichier pagetemplates.ini"
 
 #: ../src/control/xojfile/LoadHandler.cpp:988
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr ""
+"Impossible d'ouvrir l'annexe : {1}. Message d'erreur : Ne peut pas lire le "
+"fichier"
 
 #: ../src/control/xojfile/LoadHandler.cpp:997
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr ""
+"Impossible d'ouvrir l'annexe : {1}. Message d'erreur : Ne peut pas écrire le "
+"fichier"
 
 #: ../src/control/xojfile/LoadHandler.cpp:967
 #: ../src/control/xojfile/LoadHandler.cpp:1295
@@ -271,48 +275,57 @@ msgstr ""
 msgid ""
 "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr ""
+"Impossible d'ouvrir l'annexe : {1}. Message d'erreur : Pas de taille valide "
+"fournie"
 
 #: ../src/control/xojfile/LoadHandler.cpp:957
 #: ../src/control/xojfile/LoadHandler.cpp:975
 #: ../src/control/xojfile/LoadHandler.cpp:1286
 #: ../src/control/xojfile/LoadHandler.cpp:1303
 msgid "Could not open attachment: {1}. Error message: {2}"
-msgstr ""
+msgstr "Impossible d'ouvrir l'annexe : {1}. Message d'erreur : {2}"
 
 #: ../src/control/xojfile/LoadHandler.cpp:197
 msgid "Could not open file: \"{1}\""
-msgstr ""
+msgstr "Impossible d'ouvrir le fichier : \"{1}\""
 
 #: ../src/gui/MainWindow.cpp:91
 msgid ""
 "Could not parse custom toolbar.ini file: {1}\n"
 "Toolbars will not be available"
 msgstr ""
+"Impossible d'interprêter le fichier toolbar.ini : {1}\n"
+"Les barres d'outils ne seront pas disponibles"
 
 #: ../src/gui/MainWindow.cpp:81
 msgid ""
 "Could not parse general toolbar.ini file: {1}\n"
 "No Toolbars will be available"
 msgstr ""
+"Impossible d'interprêter le fichier général toolbar.ini : {1}\n"
+"Les barres d'outils ne seront pas disponibles"
 
 #: ../src/control/xojfile/LoadHandler.cpp:441
 #: ../src/control/xojfile/LoadHandler.cpp:469
 msgid "Could not read image: {1}. Error message: {2}"
-msgstr ""
+msgstr "Impossible de lire l'image : {1}. Message d'erreur : {2}"
 
 #: ../src/undo/UndoRedoHandler.cpp:175
 msgid ""
 "Could not redo \"{1}\"\n"
 "Something went wrong… Please write a bug report…"
 msgstr ""
+"Impossible de rétablir \"{1}\"\n"
+"Quelque chose s'est mal passé. Veuillez créer un rapport de bogue..."
 
 #: ../src/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:210
 msgid "Could not remove tool item from Toolbar {1} on position {2}"
-msgstr ""
+msgstr "Impossible de retirer l'outil de la barre d'outils {1} en position {2}"
 
 #: ../src/gui/dialog/toolbarCustomize/ToolbarAdapter.cpp:205
 msgid "Could not remove tool item {1} from Toolbar {2} on position {3}"
 msgstr ""
+"Impossible de retirer l'outil {1} de la barre d'outils {2} en position {3}"
 
 #: ../src/control/Control.cpp:250
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
